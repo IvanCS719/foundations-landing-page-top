@@ -107,3 +107,21 @@
     font-size: 18px;
     color: #353e49;
 }
+
+.testimonios{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 0;
+}
+
+.testimonios_contenedor-testimonio{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimonios_contenedor-autor{
+    text-align: right;
+    font-size: 24px;
+    font-weight: 800;
+}
