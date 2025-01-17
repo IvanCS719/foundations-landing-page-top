@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 16px;
+    min-height: 8vh;
 }
 
 .header_logo{
@@ -31,4 +31,43 @@
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.inicio{
+    background-color: #1f2937;
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+}
+
+.inicio_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.inicio_info-titulo{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.inicio_info-mensaje, .inicio_info-boton{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.inicio_info-boton{
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: 900;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.inicio_figure-imagen{
+    width: 100%;
 }
