@@ -71,3 +71,39 @@
 .inicio_figure-imagen{
     width: 100%;
 }
+
+.acercade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.acercade-titulo{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.acercade_contenedor{
+    display: flex;
+    gap: 50px;
+}
+
+.acercade_contenedor_card{
+    width: 170px;
+}
+
+.acercade_contenedor_card_figure-imagen{
+    width: 100%;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+.acercade_contenedor_card-texto{
+    text-align: center;
+    font-size: 18px;
+    color: #353e49;
+}
