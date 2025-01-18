@@ -123,5 +123,39 @@
 .testimonios_contenedor-autor{
     text-align: right;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 900;
+}
+
+.cta{
+    padding: 100px 0;
+}
+
+.cta_contenedor{
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.cta_contenedor_info-titulo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900
+}
+
+.cta_contenedor_info-eslogan{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta_contenedor-boton{
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 24px;
+    cursor: pointer;
 }
