@@ -159,3 +159,18 @@
     padding: 8px 24px;
     cursor: pointer;
 }
+
+.footer{
+    background-color: #1f2937; 
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-derechos{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
